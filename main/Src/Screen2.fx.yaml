@@ -1,0 +1,67 @@
+Screen2 As screen:
+
+    ComboboxCanvas1 As Combobox.pcfdataset:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Items: ='Test list'
+        Width: =320
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        Title1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Title"
+            FieldName: ="Title"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+
+        "'Sign-off status1' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Sign-off status"
+            FieldName: ="Sign_x002d_off_x0020_status"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            ZIndex: =2
+
+        Status1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Status"
+            FieldName: ="Status"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            ZIndex: =3
+
+        "'Status 21' As pcfDataField.textualColumn":
+            FieldDisplayName: ="Status 2"
+            FieldName: ="Status2"
+            FieldType: ="E"
+            FieldVariantName: ="textualColumn"
+            Order: =4
+            ZIndex: =4
+
+        "'test phillip1' As pcfDataField.textualColumn":
+            FieldDisplayName: ="test phillip"
+            FieldName: ="testphillip"
+            FieldType: ="D"
+            FieldVariantName: ="textualColumn"
+            Order: =5
+            ZIndex: =5
+
+        Attachments1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Attachments"
+            FieldName: ="{Attachments}"
+            FieldType: ="r*"
+            FieldVariantName: ="textualColumn"
+            Order: =6
+            ZIndex: =6
+
+    BadgeCanvas1 As Badge:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =32
+        X: =468
+        Y: =128
+        ZIndex: =2
+
