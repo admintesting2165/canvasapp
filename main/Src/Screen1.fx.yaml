@@ -1,0 +1,34 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Height: =145
+        Text: |
+            =CountRows(
+                
+                Filter(Contacts,  "000d3a1b9171" = Accounts ))
+        Width: =267
+        X: =245
+        Y: =72
+        ZIndex: =1
+
+    Button1 As button:
+        OnSelect: |-
+            =ClearCollect(namecoll2, Defaults('Test list'));
+            
+            Patch(namecoll2, Defaults(namecoll2), {Title:"Myself"})
+        Text: ="Button"
+        X: =564
+        Y: =72
+        ZIndex: =2
+
+    LinkCanvas1 As Link:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        URL: |-
+            ="https://crm216525.sharepoint.com/:v:/s/Testinglist/EfNom34v6JVCm__WbCrOfzMBt_sAdxamLli5mQkROcxukA?e=FT6hgh"
+        Width: =320
+        X: =815
+        Y: =217
+        ZIndex: =4
+

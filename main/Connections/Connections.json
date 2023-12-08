@@ -1,0 +1,30 @@
+{
+  "20ba1e2d-3e5f-42bf-a20f-afbe5df04e6c": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://crm216525.sharepoint.com/sites/Testinglist": {
+        "dataSources": {
+          "Test list": {
+            "tableName": "17c4cd45-5529-4019-a8a1-afcac97d2cdc"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Test list"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "20ba1e2d-3e5f-42bf-a20f-afbe5df04e6c"
+  }
+}
