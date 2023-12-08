@@ -24,11 +24,6 @@ Screen1 As screen:
     LinkCanvas1 As Link:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
-        Font: =""
-        FontItalic: =false
-        FontStrikethrough: =false
-        FontUnderline: =false
-        FontWeight: =""
         Height: =32
         URL: |-
             ="https://crm216525.sharepoint.com/:v:/s/Testinglist/EfNom34v6JVCm__WbCrOfzMBt_sAdxamLli5mQkROcxukA?e=FT6hgh"

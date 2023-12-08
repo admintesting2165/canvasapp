@@ -2,11 +2,6 @@ Screen2 As screen:
 
     ComboboxCanvas1 As Combobox.pcfdataset:
         DisplayMode: =DisplayMode.Edit
-        Font: =""
-        FontItalic: =false
-        FontStrikethrough: =false
-        FontUnderline: =false
-        FontWeight: =""
         Height: =32
         Items: ='Test list'
         Width: =320
@@ -65,12 +60,6 @@ Screen2 As screen:
     BadgeCanvas1 As Badge:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
-        Font: =""
-        FontColor: =
-        FontItalic: =false
-        FontStrikethrough: =false
-        FontUnderline: =false
-        FontWeight: =""
         Height: =32
         Width: =32
         X: =468

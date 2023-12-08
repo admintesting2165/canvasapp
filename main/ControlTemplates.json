@@ -26,7 +26,7 @@
     "Name": "PowerApps_CoreControls_BadgeCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Badge",
-    "Version": "0.0.17"
+    "Version": "0.0.15"
   },
   "button": {
     "CustomGroupControlTemplateName": "",
@@ -55,7 +55,7 @@
     "Name": "PowerApps_CoreControls_ComboboxCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Combobox",
-    "Version": "0.0.24"
+    "Version": "0.0.20"
   },
   "groupContainer": {
     "FirstParty": true,
@@ -109,7 +109,7 @@
     "Name": "PowerApps_CoreControls_LinkCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Link",
-    "Version": "0.0.24"
+    "Version": "0.0.20"
   },
   "pcfDataField": {
     "CustomGroupControlTemplateName": "",
